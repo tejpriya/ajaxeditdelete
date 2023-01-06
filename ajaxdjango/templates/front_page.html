@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Django Ajax Example{% endblock %}
+
+{% block content %}
+<div class="container">
+
+
+<ul>
+  <li><a href="{% url 'simple_ajax' %}"> Ajax Django </a></li>
+  <li><a href="{% url 'crud_ajax' %}">CRUD Operation</a></li>
+</ul>  
+</div>
+{% endblock %}
+
